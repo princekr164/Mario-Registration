@@ -1,0 +1,4 @@
+services:
+  user_register_extend.helper_service:
+    class: Drupal\user_register_extend\UserRegisterHelperService
+    arguments: ['@logger.factory', '@entity_type.manager', '@database']

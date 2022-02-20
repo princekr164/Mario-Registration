@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - user_register_extend
+id: customer
+label: 'Customer'
+weight: 4
+is_admin: false
+permissions: {  }

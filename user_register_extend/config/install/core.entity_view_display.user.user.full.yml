@@ -1,0 +1,37 @@
+uuid: 018d803f-a418-4b4f-9780-1b2876a45db7
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.user.full
+    - field.field.user.user.field_country
+    - field.field.user.user.field_date_of_birth
+    - field.field.user.user.field_full_name
+    - field.field.user.user.field_pizza_type
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: E1qmUI2SlozLlJ308jfMMFKT67l1p6PywE2LTRbeYS4
+id: user.user.full
+targetEntityType: user
+bundle: user
+mode: full
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_country: true
+  field_date_of_birth: true
+  field_full_name: true
+  field_pizza_type: true
+  member_for: true

@@ -1,0 +1,23 @@
+uuid: 696fd68d-e911-415e-a8a7-3591bfb1f9ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user_register_extend
+id: mycouponblock
+theme: public
+region: content
+weight: 0
+provider: null
+plugin: pizza_coupon_block
+settings:
+  id: pizza_coupon_block
+  label: 'My Coupon block'
+  provider: user_register_extend
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/*
+    negate: false

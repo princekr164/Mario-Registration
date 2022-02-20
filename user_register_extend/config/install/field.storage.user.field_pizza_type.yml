@@ -1,0 +1,21 @@
+uuid: 82a99c16-eec6-4e90-a3a6-bc1e41c3116d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_pizza_type
+field_name: field_pizza_type
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

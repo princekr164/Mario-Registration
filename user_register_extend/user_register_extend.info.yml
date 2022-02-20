@@ -1,0 +1,5 @@
+name: Mario Pizza User Register Extend
+description: Helper module for extending User Registeration.
+package: custom
+type: module
+core_version_requirement: ^9

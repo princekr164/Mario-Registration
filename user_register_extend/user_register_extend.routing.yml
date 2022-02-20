@@ -1,0 +1,23 @@
+user_register_extend.user_register_step_one:
+  path: '/mario-pizza/user-register'
+  defaults:
+    _form: '\Drupal\user_register_extend\Form\Multistep\MarioPizzaUserRegisterForm'
+    _title: 'Mario Pizza user Registration'
+  requirements:
+    _permission: 'access content'
+
+user_register_extend.user_register_step_two:
+  path: '/mario-pizza/user-register-second-form'
+  defaults:
+    _form: '\Drupal\user_register_extend\Form\Multistep\MarioPizzaUserRegisterSecondForm'
+    _title: 'Mario Pizza user Registration'
+  requirements:
+    _permission: 'access content'
+
+user_register_extend.user_register_final_step:
+  path: '/mario-pizza/user-register-final-form'
+  defaults:
+    _form: '\Drupal\user_register_extend\Form\Multistep\MarioPizzaUserRegisterFinalForm'
+    _title: 'Mario Pizza user Registration'
+  requirements:
+    _permission: 'access content'

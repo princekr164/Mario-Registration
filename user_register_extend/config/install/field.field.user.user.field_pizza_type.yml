@@ -1,0 +1,20 @@
+uuid: db4cc94e-be4e-464f-a63c-9777513c9912
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_pizza_type
+  module:
+    - user
+id: user.user.field_pizza_type
+field_name: field_pizza_type
+entity_type: user
+bundle: user
+label: 'Pizza Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
